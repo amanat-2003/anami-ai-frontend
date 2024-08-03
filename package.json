@@ -1,0 +1,74 @@
+{
+  "name": "zippiai-app-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-transform-runtime": "^7.23.9",
+    "@babel/runtime": "^7.23.9",
+    "@editorjs/attaches": "^1.3.0",
+    "@editorjs/checklist": "^1.6.0",
+    "@editorjs/code": "^2.9.0",
+    "@editorjs/editorjs": "^2.29.1",
+    "@editorjs/embed": "^2.7.2",
+    "@editorjs/header": "^2.8.1",
+    "@editorjs/inline-code": "^1.5.0",
+    "@editorjs/link": "^2.6.2",
+    "@editorjs/marker": "^1.4.0",
+    "@editorjs/nested-list": "^1.4.2",
+    "@editorjs/paragraph": "^2.11.4",
+    "@editorjs/quote": "^2.6.0",
+    "@editorjs/underline": "^1.1.0",
+    "@editorjs/warning": "^1.4.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.5",
+    "@mui/x-charts": "^7.3.0",
+    "axios": "^1.4.0",
+    "editorjs-alert": "^1.1.4",
+    "editorjs-drag-drop": "^1.1.14",
+    "editorjs-hyperlink": "^1.0.6",
+    "editorjs-inline-image": "^2.1.1",
+    "quill": "^1.3.7",
+    "quill-blot-formatter": "^1.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-google-recaptcha": "^3.1.0",
+    "react-hot-toast": "^2.4.1",
+    "react-player": "^2.14.1",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-speech-recognition": "^3.10.0",
+    "socket.io-client": "^4.7.4",
+    "split-pane-react": "^0.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
